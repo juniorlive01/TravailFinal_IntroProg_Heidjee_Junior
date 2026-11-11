@@ -4,6 +4,7 @@ namespace travailFinal_Intro_progra
     {
 
 
+        bool partieTerminee = false;
         Image cacheeImage;
         Image drapeauImage;
         Image mineImage;
@@ -20,6 +21,7 @@ namespace travailFinal_Intro_progra
         private void Form1_Load(object sender, EventArgs e)
         {
             PlacerPictureBoxDansTableau();
+            ChargerLesImages();
 
         }
 
@@ -29,7 +31,9 @@ namespace travailFinal_Intro_progra
             Revelee,
             Drapeau
         }
-        const int  nombreLignes = 10;
+
+
+        const int nombreLignes = 10;
         const int nombreColonnes = 10;
 
         private Random random = new Random();
@@ -174,7 +178,7 @@ namespace travailFinal_Intro_progra
         }
 
         private void initialiserGrille()
-        { 
+        {
             for (int ligne = 0; ligne < nombreLignes; ligne++)
             {
                 for (int colonne = 0; colonne < nombreColonnes; colonne++)
@@ -184,19 +188,57 @@ namespace travailFinal_Intro_progra
                 }
             }
 
-            
+
         }
 
         private void quitterToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            for (int ligne = 0; ligne < 10; ligne++)
-            {
-                for (int colonne = 0; colonne < 10; colonne++)
-                {
-                    tableauCasesCahee[ligne, colonne].Enabled = false;
-                }
-            }
             Close();
+        }
+
+        private void caseMouseDown(object sender, MouseEventArgs e)
+        {
+            if (!partieTerminee)
+            {
+                
+               PictureBox  clickCase = (PictureBox)sender;
+                int ligne = clickCase.Location.Y / clickCase.Height;
+                int colonne = clickCase.Location.X / clickCase.Width;
+                if (e.Button == MouseButtons.Left)
+                {
+                    // Clic gauche
+                    if (etats[ligne, colonne] == EtatCase.Cachee)
+                    {
+                        etats[ligne, colonne] = EtatCase.Revelee;
+                        // Vérifier si la case contient une mine
+                        if (mines[ligne, colonne])
+                        {
+                            // La case contient une mine, le joueur perd
+                            partieTerminee = true;
+                            MessageBox.Show("Vous avez perdu !");
+                        }
+                        else
+                        {
+                            // La case ne contient pas de mine, révéler la case
+                            tableauCasesCahee[ligne, colonne].Image = videImage;
+                        }
+                    }
+                }
+                else if (e.Button == MouseButtons.Right)
+                {
+                    // Clic droit
+                    if (etats[ligne, colonne] == EtatCase.Cachee)
+                    {
+                        etats[ligne, colonne] = EtatCase.Drapeau;
+                        tableauCasesCahee[ligne, colonne].Image = drapeauImage;
+                    }
+                    else if (etats[ligne, colonne] == EtatCase.Drapeau)
+                    {
+                        etats[ligne, colonne] = EtatCase.Cachee;
+                        tableauCasesCahee[ligne, colonne].Image = cacheeImage;
+                    }
+                }   
+            }
         }
     }
 }
