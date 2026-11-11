@@ -296,9 +296,9 @@
             // 
             // textBoxExplicatif
             // 
-            textBoxExplicatif.Location = new Point(635, 166);
+            textBoxExplicatif.Location = new Point(611, 166);
             textBoxExplicatif.Name = "textBoxExplicatif";
-            textBoxExplicatif.Size = new Size(125, 27);
+            textBoxExplicatif.Size = new Size(149, 27);
             textBoxExplicatif.TabIndex = 205;
             // 
             // nombreDeMinesLabel
