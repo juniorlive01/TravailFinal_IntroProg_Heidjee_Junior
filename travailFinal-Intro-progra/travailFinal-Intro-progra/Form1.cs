@@ -5,16 +5,21 @@ namespace travailFinal_Intro_progra
 
         PictureBox[,] tableauCasesCahee = new PictureBox[10, 10];
         Image imageCachee = Image.FromFile(@"ImagesDemineur\cachee.png");
+        int nombreMinesEntree;
         public Form1()
         {
             InitializeComponent();
+
+            //int.TryParse(textBoxExplicatif.Text, out nombreMinesEntree);
         }
+
 
         private void Form1_Load(object sender, EventArgs e)
         {
             PlacerPictureBoxDansTableau();
 
             AfficherCasesCachee();
+            
 
         }
 
@@ -147,8 +152,31 @@ namespace travailFinal_Intro_progra
 
         }
 
+        private int ValiderNombreDeMines(int nombreMinesEntree)
+        {
+            if (int.TryParse(textBoxExplicatif.Text, out nombreMinesEntree) || nombreMinesEntree < 5 || nombreMinesEntree > 30)
+            {
+                return nombreMinesEntree;
+            }
+            else
+            {
+                MessageBox.Show("Veuillez entrer un nombre valide et dans l'intervalle!");
+                return 0;
+            }
 
 
+        }
 
+        private void RevelerCases()
+        {
+
+        }
+
+        private void commencerPartieButton_Click( object sender, EventArgs e)
+        {
+
+            int nombreMines = ValiderNombreDeMines(nombreMinesEntree);
+            MessageBox.Show(nombreMines.ToString());
+        }
     }
 }

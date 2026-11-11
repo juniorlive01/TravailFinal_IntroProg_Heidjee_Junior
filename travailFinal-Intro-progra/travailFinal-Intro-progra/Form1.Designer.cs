@@ -137,6 +137,7 @@
             pictureBox92 = new PictureBox();
             pictureBox91 = new PictureBox();
             pictureBox90 = new PictureBox();
+            commencerPartieButton = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox00).BeginInit();
             menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox01).BeginInit();
@@ -503,7 +504,7 @@
             // pictureBox30
             // 
             pictureBox30.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox30.Location = new Point(27, 235);
+            pictureBox30.Location = new Point(27, 228);
             pictureBox30.Name = "pictureBox30";
             pictureBox30.Size = new Size(50, 50);
             pictureBox30.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -513,7 +514,7 @@
             // pictureBox31
             // 
             pictureBox31.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox31.Location = new Point(83, 235);
+            pictureBox31.Location = new Point(83, 228);
             pictureBox31.Name = "pictureBox31";
             pictureBox31.Size = new Size(50, 50);
             pictureBox31.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -523,7 +524,7 @@
             // pictureBox32
             // 
             pictureBox32.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox32.Location = new Point(139, 235);
+            pictureBox32.Location = new Point(139, 228);
             pictureBox32.Name = "pictureBox32";
             pictureBox32.Size = new Size(50, 50);
             pictureBox32.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -533,7 +534,7 @@
             // pictureBox33
             // 
             pictureBox33.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox33.Location = new Point(195, 235);
+            pictureBox33.Location = new Point(195, 228);
             pictureBox33.Name = "pictureBox33";
             pictureBox33.Size = new Size(50, 50);
             pictureBox33.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -543,7 +544,7 @@
             // pictureBox34
             // 
             pictureBox34.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox34.Location = new Point(251, 235);
+            pictureBox34.Location = new Point(251, 228);
             pictureBox34.Name = "pictureBox34";
             pictureBox34.Size = new Size(50, 50);
             pictureBox34.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -553,7 +554,7 @@
             // pictureBox35
             // 
             pictureBox35.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox35.Location = new Point(307, 235);
+            pictureBox35.Location = new Point(307, 228);
             pictureBox35.Name = "pictureBox35";
             pictureBox35.Size = new Size(50, 50);
             pictureBox35.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -563,7 +564,7 @@
             // pictureBox36
             // 
             pictureBox36.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox36.Location = new Point(363, 235);
+            pictureBox36.Location = new Point(363, 228);
             pictureBox36.Name = "pictureBox36";
             pictureBox36.Size = new Size(50, 50);
             pictureBox36.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -573,7 +574,7 @@
             // pictureBox37
             // 
             pictureBox37.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox37.Location = new Point(419, 235);
+            pictureBox37.Location = new Point(419, 228);
             pictureBox37.Name = "pictureBox37";
             pictureBox37.Size = new Size(50, 50);
             pictureBox37.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -583,7 +584,7 @@
             // pictureBox38
             // 
             pictureBox38.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox38.Location = new Point(475, 235);
+            pictureBox38.Location = new Point(475, 228);
             pictureBox38.Name = "pictureBox38";
             pictureBox38.Size = new Size(50, 50);
             pictureBox38.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -593,7 +594,7 @@
             // pictureBox39
             // 
             pictureBox39.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox39.Location = new Point(531, 235);
+            pictureBox39.Location = new Point(531, 228);
             pictureBox39.Name = "pictureBox39";
             pictureBox39.Size = new Size(50, 50);
             pictureBox39.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -603,7 +604,7 @@
             // pictureBox40
             // 
             pictureBox40.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox40.Location = new Point(27, 291);
+            pictureBox40.Location = new Point(27, 284);
             pictureBox40.Name = "pictureBox40";
             pictureBox40.Size = new Size(50, 50);
             pictureBox40.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -613,7 +614,7 @@
             // pictureBox41
             // 
             pictureBox41.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox41.Location = new Point(83, 291);
+            pictureBox41.Location = new Point(83, 284);
             pictureBox41.Name = "pictureBox41";
             pictureBox41.Size = new Size(50, 50);
             pictureBox41.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -623,7 +624,7 @@
             // pictureBox42
             // 
             pictureBox42.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox42.Location = new Point(139, 291);
+            pictureBox42.Location = new Point(139, 284);
             pictureBox42.Name = "pictureBox42";
             pictureBox42.Size = new Size(50, 50);
             pictureBox42.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -633,7 +634,7 @@
             // pictureBox43
             // 
             pictureBox43.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox43.Location = new Point(195, 291);
+            pictureBox43.Location = new Point(195, 284);
             pictureBox43.Name = "pictureBox43";
             pictureBox43.Size = new Size(50, 50);
             pictureBox43.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -643,7 +644,7 @@
             // pictureBox44
             // 
             pictureBox44.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox44.Location = new Point(251, 291);
+            pictureBox44.Location = new Point(251, 284);
             pictureBox44.Name = "pictureBox44";
             pictureBox44.Size = new Size(50, 50);
             pictureBox44.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -653,7 +654,7 @@
             // pictureBox45
             // 
             pictureBox45.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox45.Location = new Point(307, 291);
+            pictureBox45.Location = new Point(307, 284);
             pictureBox45.Name = "pictureBox45";
             pictureBox45.Size = new Size(50, 50);
             pictureBox45.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -663,7 +664,7 @@
             // pictureBox53
             // 
             pictureBox53.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox53.Location = new Point(195, 347);
+            pictureBox53.Location = new Point(195, 340);
             pictureBox53.Name = "pictureBox53";
             pictureBox53.Size = new Size(50, 50);
             pictureBox53.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -673,7 +674,7 @@
             // pictureBox52
             // 
             pictureBox52.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox52.Location = new Point(139, 347);
+            pictureBox52.Location = new Point(139, 340);
             pictureBox52.Name = "pictureBox52";
             pictureBox52.Size = new Size(50, 50);
             pictureBox52.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -683,7 +684,7 @@
             // pictureBox47
             // 
             pictureBox47.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox47.Location = new Point(419, 291);
+            pictureBox47.Location = new Point(419, 284);
             pictureBox47.Name = "pictureBox47";
             pictureBox47.Size = new Size(50, 50);
             pictureBox47.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -693,7 +694,7 @@
             // pictureBox46
             // 
             pictureBox46.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox46.Location = new Point(363, 291);
+            pictureBox46.Location = new Point(363, 284);
             pictureBox46.Name = "pictureBox46";
             pictureBox46.Size = new Size(50, 50);
             pictureBox46.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -703,7 +704,7 @@
             // pictureBox54
             // 
             pictureBox54.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox54.Location = new Point(251, 347);
+            pictureBox54.Location = new Point(251, 340);
             pictureBox54.Name = "pictureBox54";
             pictureBox54.Size = new Size(50, 50);
             pictureBox54.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -713,7 +714,7 @@
             // pictureBox56
             // 
             pictureBox56.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox56.Location = new Point(363, 347);
+            pictureBox56.Location = new Point(363, 340);
             pictureBox56.Name = "pictureBox56";
             pictureBox56.Size = new Size(50, 50);
             pictureBox56.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -723,7 +724,7 @@
             // pictureBox57
             // 
             pictureBox57.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox57.Location = new Point(419, 347);
+            pictureBox57.Location = new Point(419, 340);
             pictureBox57.Name = "pictureBox57";
             pictureBox57.Size = new Size(50, 50);
             pictureBox57.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -733,7 +734,7 @@
             // pictureBox58
             // 
             pictureBox58.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox58.Location = new Point(475, 347);
+            pictureBox58.Location = new Point(475, 340);
             pictureBox58.Name = "pictureBox58";
             pictureBox58.Size = new Size(50, 50);
             pictureBox58.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -743,7 +744,7 @@
             // pictureBox59
             // 
             pictureBox59.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox59.Location = new Point(531, 347);
+            pictureBox59.Location = new Point(531, 340);
             pictureBox59.Name = "pictureBox59";
             pictureBox59.Size = new Size(50, 50);
             pictureBox59.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -753,7 +754,7 @@
             // pictureBox55
             // 
             pictureBox55.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox55.Location = new Point(307, 347);
+            pictureBox55.Location = new Point(307, 340);
             pictureBox55.Name = "pictureBox55";
             pictureBox55.Size = new Size(50, 50);
             pictureBox55.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -763,7 +764,7 @@
             // pictureBox65
             // 
             pictureBox65.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox65.Location = new Point(307, 403);
+            pictureBox65.Location = new Point(307, 396);
             pictureBox65.Name = "pictureBox65";
             pictureBox65.Size = new Size(50, 50);
             pictureBox65.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -773,7 +774,7 @@
             // pictureBox64
             // 
             pictureBox64.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox64.Location = new Point(251, 403);
+            pictureBox64.Location = new Point(251, 396);
             pictureBox64.Name = "pictureBox64";
             pictureBox64.Size = new Size(50, 50);
             pictureBox64.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -783,7 +784,7 @@
             // pictureBox63
             // 
             pictureBox63.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox63.Location = new Point(195, 403);
+            pictureBox63.Location = new Point(195, 396);
             pictureBox63.Name = "pictureBox63";
             pictureBox63.Size = new Size(50, 50);
             pictureBox63.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -793,7 +794,7 @@
             // pictureBox62
             // 
             pictureBox62.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox62.Location = new Point(139, 403);
+            pictureBox62.Location = new Point(139, 396);
             pictureBox62.Name = "pictureBox62";
             pictureBox62.Size = new Size(50, 50);
             pictureBox62.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -803,7 +804,7 @@
             // pictureBox61
             // 
             pictureBox61.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox61.Location = new Point(83, 403);
+            pictureBox61.Location = new Point(83, 396);
             pictureBox61.Name = "pictureBox61";
             pictureBox61.Size = new Size(50, 50);
             pictureBox61.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -813,7 +814,7 @@
             // pictureBox60
             // 
             pictureBox60.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox60.Location = new Point(27, 403);
+            pictureBox60.Location = new Point(27, 396);
             pictureBox60.Name = "pictureBox60";
             pictureBox60.Size = new Size(50, 50);
             pictureBox60.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -823,7 +824,7 @@
             // pictureBox66
             // 
             pictureBox66.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox66.Location = new Point(363, 403);
+            pictureBox66.Location = new Point(363, 396);
             pictureBox66.Name = "pictureBox66";
             pictureBox66.Size = new Size(50, 50);
             pictureBox66.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -833,7 +834,7 @@
             // pictureBox67
             // 
             pictureBox67.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox67.Location = new Point(419, 403);
+            pictureBox67.Location = new Point(419, 396);
             pictureBox67.Name = "pictureBox67";
             pictureBox67.Size = new Size(50, 50);
             pictureBox67.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -843,7 +844,7 @@
             // pictureBox68
             // 
             pictureBox68.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox68.Location = new Point(475, 403);
+            pictureBox68.Location = new Point(475, 396);
             pictureBox68.Name = "pictureBox68";
             pictureBox68.Size = new Size(50, 50);
             pictureBox68.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -853,7 +854,7 @@
             // pictureBox69
             // 
             pictureBox69.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox69.Location = new Point(531, 403);
+            pictureBox69.Location = new Point(531, 396);
             pictureBox69.Name = "pictureBox69";
             pictureBox69.Size = new Size(50, 50);
             pictureBox69.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -963,7 +964,7 @@
             // pictureBox48
             // 
             pictureBox48.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox48.Location = new Point(475, 291);
+            pictureBox48.Location = new Point(475, 284);
             pictureBox48.Name = "pictureBox48";
             pictureBox48.Size = new Size(50, 50);
             pictureBox48.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -973,7 +974,7 @@
             // pictureBox49
             // 
             pictureBox49.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox49.Location = new Point(531, 291);
+            pictureBox49.Location = new Point(531, 284);
             pictureBox49.Name = "pictureBox49";
             pictureBox49.Size = new Size(50, 50);
             pictureBox49.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -983,7 +984,7 @@
             // pictureBox51
             // 
             pictureBox51.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox51.Location = new Point(83, 347);
+            pictureBox51.Location = new Point(83, 340);
             pictureBox51.Name = "pictureBox51";
             pictureBox51.Size = new Size(50, 50);
             pictureBox51.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -993,7 +994,7 @@
             // pictureBox50
             // 
             pictureBox50.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox50.Location = new Point(27, 347);
+            pictureBox50.Location = new Point(27, 340);
             pictureBox50.Name = "pictureBox50";
             pictureBox50.Size = new Size(50, 50);
             pictureBox50.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -1003,7 +1004,7 @@
             // pictureBox70
             // 
             pictureBox70.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox70.Location = new Point(27, 459);
+            pictureBox70.Location = new Point(27, 452);
             pictureBox70.Name = "pictureBox70";
             pictureBox70.Size = new Size(50, 50);
             pictureBox70.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -1013,7 +1014,7 @@
             // pictureBox74
             // 
             pictureBox74.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox74.Location = new Point(251, 459);
+            pictureBox74.Location = new Point(251, 452);
             pictureBox74.Name = "pictureBox74";
             pictureBox74.Size = new Size(50, 50);
             pictureBox74.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -1023,7 +1024,7 @@
             // pictureBox73
             // 
             pictureBox73.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox73.Location = new Point(195, 459);
+            pictureBox73.Location = new Point(195, 452);
             pictureBox73.Name = "pictureBox73";
             pictureBox73.Size = new Size(50, 50);
             pictureBox73.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -1033,7 +1034,7 @@
             // pictureBox72
             // 
             pictureBox72.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox72.Location = new Point(139, 459);
+            pictureBox72.Location = new Point(139, 452);
             pictureBox72.Name = "pictureBox72";
             pictureBox72.Size = new Size(50, 50);
             pictureBox72.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -1043,7 +1044,7 @@
             // pictureBox71
             // 
             pictureBox71.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox71.Location = new Point(83, 459);
+            pictureBox71.Location = new Point(83, 452);
             pictureBox71.Name = "pictureBox71";
             pictureBox71.Size = new Size(50, 50);
             pictureBox71.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -1053,7 +1054,7 @@
             // pictureBox79
             // 
             pictureBox79.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox79.Location = new Point(531, 459);
+            pictureBox79.Location = new Point(531, 452);
             pictureBox79.Name = "pictureBox79";
             pictureBox79.Size = new Size(50, 50);
             pictureBox79.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -1063,7 +1064,7 @@
             // pictureBox78
             // 
             pictureBox78.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox78.Location = new Point(475, 459);
+            pictureBox78.Location = new Point(475, 452);
             pictureBox78.Name = "pictureBox78";
             pictureBox78.Size = new Size(50, 50);
             pictureBox78.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -1073,7 +1074,7 @@
             // pictureBox77
             // 
             pictureBox77.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox77.Location = new Point(419, 459);
+            pictureBox77.Location = new Point(419, 452);
             pictureBox77.Name = "pictureBox77";
             pictureBox77.Size = new Size(50, 50);
             pictureBox77.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -1083,7 +1084,7 @@
             // pictureBox76
             // 
             pictureBox76.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox76.Location = new Point(363, 459);
+            pictureBox76.Location = new Point(363, 452);
             pictureBox76.Name = "pictureBox76";
             pictureBox76.Size = new Size(50, 50);
             pictureBox76.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -1093,7 +1094,7 @@
             // pictureBox75
             // 
             pictureBox75.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox75.Location = new Point(307, 459);
+            pictureBox75.Location = new Point(307, 452);
             pictureBox75.Name = "pictureBox75";
             pictureBox75.Size = new Size(50, 50);
             pictureBox75.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -1103,7 +1104,7 @@
             // pictureBox80
             // 
             pictureBox80.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox80.Location = new Point(27, 515);
+            pictureBox80.Location = new Point(27, 508);
             pictureBox80.Name = "pictureBox80";
             pictureBox80.Size = new Size(50, 50);
             pictureBox80.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -1113,7 +1114,7 @@
             // pictureBox81
             // 
             pictureBox81.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox81.Location = new Point(83, 515);
+            pictureBox81.Location = new Point(83, 508);
             pictureBox81.Name = "pictureBox81";
             pictureBox81.Size = new Size(50, 50);
             pictureBox81.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -1123,7 +1124,7 @@
             // pictureBox88
             // 
             pictureBox88.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox88.Location = new Point(475, 515);
+            pictureBox88.Location = new Point(475, 508);
             pictureBox88.Name = "pictureBox88";
             pictureBox88.Size = new Size(50, 50);
             pictureBox88.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -1133,7 +1134,7 @@
             // pictureBox87
             // 
             pictureBox87.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox87.Location = new Point(419, 515);
+            pictureBox87.Location = new Point(419, 508);
             pictureBox87.Name = "pictureBox87";
             pictureBox87.Size = new Size(50, 50);
             pictureBox87.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -1143,7 +1144,7 @@
             // pictureBox86
             // 
             pictureBox86.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox86.Location = new Point(363, 515);
+            pictureBox86.Location = new Point(363, 508);
             pictureBox86.Name = "pictureBox86";
             pictureBox86.Size = new Size(50, 50);
             pictureBox86.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -1153,7 +1154,7 @@
             // pictureBox85
             // 
             pictureBox85.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox85.Location = new Point(307, 515);
+            pictureBox85.Location = new Point(307, 508);
             pictureBox85.Name = "pictureBox85";
             pictureBox85.Size = new Size(50, 50);
             pictureBox85.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -1163,7 +1164,7 @@
             // pictureBox84
             // 
             pictureBox84.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox84.Location = new Point(251, 515);
+            pictureBox84.Location = new Point(251, 508);
             pictureBox84.Name = "pictureBox84";
             pictureBox84.Size = new Size(50, 50);
             pictureBox84.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -1173,7 +1174,7 @@
             // pictureBox83
             // 
             pictureBox83.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox83.Location = new Point(195, 515);
+            pictureBox83.Location = new Point(195, 508);
             pictureBox83.Name = "pictureBox83";
             pictureBox83.Size = new Size(50, 50);
             pictureBox83.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -1183,7 +1184,7 @@
             // pictureBox82
             // 
             pictureBox82.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox82.Location = new Point(139, 515);
+            pictureBox82.Location = new Point(139, 508);
             pictureBox82.Name = "pictureBox82";
             pictureBox82.Size = new Size(50, 50);
             pictureBox82.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -1193,7 +1194,7 @@
             // pictureBox89
             // 
             pictureBox89.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox89.Location = new Point(531, 515);
+            pictureBox89.Location = new Point(531, 508);
             pictureBox89.Name = "pictureBox89";
             pictureBox89.Size = new Size(50, 50);
             pictureBox89.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -1203,7 +1204,7 @@
             // pictureBox99
             // 
             pictureBox99.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox99.Location = new Point(531, 571);
+            pictureBox99.Location = new Point(531, 564);
             pictureBox99.Name = "pictureBox99";
             pictureBox99.Size = new Size(50, 50);
             pictureBox99.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -1213,7 +1214,7 @@
             // pictureBox98
             // 
             pictureBox98.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox98.Location = new Point(475, 571);
+            pictureBox98.Location = new Point(475, 564);
             pictureBox98.Name = "pictureBox98";
             pictureBox98.Size = new Size(50, 50);
             pictureBox98.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -1223,7 +1224,7 @@
             // pictureBox97
             // 
             pictureBox97.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox97.Location = new Point(419, 571);
+            pictureBox97.Location = new Point(419, 564);
             pictureBox97.Name = "pictureBox97";
             pictureBox97.Size = new Size(50, 50);
             pictureBox97.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -1233,7 +1234,7 @@
             // pictureBox96
             // 
             pictureBox96.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox96.Location = new Point(363, 571);
+            pictureBox96.Location = new Point(363, 564);
             pictureBox96.Name = "pictureBox96";
             pictureBox96.Size = new Size(50, 50);
             pictureBox96.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -1243,7 +1244,7 @@
             // pictureBox95
             // 
             pictureBox95.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox95.Location = new Point(307, 571);
+            pictureBox95.Location = new Point(307, 564);
             pictureBox95.Name = "pictureBox95";
             pictureBox95.Size = new Size(50, 50);
             pictureBox95.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -1253,7 +1254,7 @@
             // pictureBox94
             // 
             pictureBox94.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox94.Location = new Point(251, 571);
+            pictureBox94.Location = new Point(251, 564);
             pictureBox94.Name = "pictureBox94";
             pictureBox94.Size = new Size(50, 50);
             pictureBox94.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -1263,7 +1264,7 @@
             // pictureBox93
             // 
             pictureBox93.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox93.Location = new Point(195, 571);
+            pictureBox93.Location = new Point(195, 564);
             pictureBox93.Name = "pictureBox93";
             pictureBox93.Size = new Size(50, 50);
             pictureBox93.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -1273,7 +1274,7 @@
             // pictureBox92
             // 
             pictureBox92.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox92.Location = new Point(139, 571);
+            pictureBox92.Location = new Point(139, 564);
             pictureBox92.Name = "pictureBox92";
             pictureBox92.Size = new Size(50, 50);
             pictureBox92.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -1283,7 +1284,7 @@
             // pictureBox91
             // 
             pictureBox91.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox91.Location = new Point(83, 571);
+            pictureBox91.Location = new Point(83, 564);
             pictureBox91.Name = "pictureBox91";
             pictureBox91.Size = new Size(50, 50);
             pictureBox91.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -1293,18 +1294,29 @@
             // pictureBox90
             // 
             pictureBox90.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox90.Location = new Point(27, 571);
+            pictureBox90.Location = new Point(27, 564);
             pictureBox90.Name = "pictureBox90";
             pictureBox90.Size = new Size(50, 50);
             pictureBox90.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox90.TabIndex = 313;
             pictureBox90.TabStop = false;
             // 
+            // commencerPartieButton
+            // 
+            commencerPartieButton.Location = new Point(611, 215);
+            commencerPartieButton.Name = "commencerPartieButton";
+            commencerPartieButton.Size = new Size(151, 52);
+            commencerPartieButton.TabIndex = 314;
+            commencerPartieButton.Text = "Commencer la partie";
+            commencerPartieButton.UseVisualStyleBackColor = true;
+            commencerPartieButton.Click += commencerPartieButton_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 644);
+            Controls.Add(commencerPartieButton);
             Controls.Add(pictureBox90);
             Controls.Add(pictureBox91);
             Controls.Add(pictureBox92);
@@ -1631,5 +1643,6 @@
         private PictureBox pictureBox51;
         private PictureBox pictureBox50;
         private PictureBox pictureBox70;
+        private Button commencerPartieButton;
     }
 }
