@@ -29,8 +29,16 @@ namespace travailFinal_Intro_progra
             Revelee,
             Drapeau
         }
+        const int  nombreLignes = 10;
+        const int nombreColonnes = 10;
 
-        
+        private Random random = new Random();
+        EtatCase[,] etats = new EtatCase[nombreLignes, nombreColonnes];
+
+        // Tableau 2D qui indique si chaque case contient une mine.
+        bool[,] mines = new bool[nombreLignes, nombreColonnes];
+
+
 
         private void PlacerPictureBoxDansTableau()
         {
@@ -160,10 +168,35 @@ namespace travailFinal_Intro_progra
             // On charge donc les images de 1 à 8.
             for (int nombre = 1; nombre <= 8; nombre++)
             {
-                imagesChiffres[nombre] =
-                    Image.FromFile($"{nombre}.png");
+                imagesChiffres[nombre] = Image.FromFile($"{nombre}.png");
+
             }
         }
 
+        private void initialiserGrille()
+        { 
+            for (int ligne = 0; ligne < nombreLignes; ligne++)
+            {
+                for (int colonne = 0; colonne < nombreColonnes; colonne++)
+                {
+                    etats[ligne, colonne] = EtatCase.Cachee;
+                    mines[ligne, colonne] = false;
+                }
+            }
+
+            
+        }
+
+        private void quitterToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            for (int ligne = 0; ligne < 10; ligne++)
+            {
+                for (int colonne = 0; colonne < 10; colonne++)
+                {
+                    tableauCasesCahee[ligne, colonne].Enabled = false;
+                }
+            }
+            Close();
+        }
     }
 }

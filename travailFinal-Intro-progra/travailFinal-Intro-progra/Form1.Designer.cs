@@ -36,7 +36,6 @@
             quitterToolStripMenuItem = new ToolStripMenuItem();
             minesRestantesLabel = new Label();
             textBoxExplicatif = new TextBox();
-            nombreDeMinesLabel = new Label();
             pictureBox01 = new PictureBox();
             pictureBox02 = new PictureBox();
             pictureBox03 = new PictureBox();
@@ -270,20 +269,21 @@
             // nouvellePartieToolStripMenuItem
             // 
             nouvellePartieToolStripMenuItem.Name = "nouvellePartieToolStripMenuItem";
-            nouvellePartieToolStripMenuItem.Size = new Size(209, 26);
+            nouvellePartieToolStripMenuItem.Size = new Size(224, 26);
             nouvellePartieToolStripMenuItem.Text = "Nouvelle partie";
             // 
             // afficherLesMinesToolStripMenuItem
             // 
             afficherLesMinesToolStripMenuItem.Name = "afficherLesMinesToolStripMenuItem";
-            afficherLesMinesToolStripMenuItem.Size = new Size(209, 26);
+            afficherLesMinesToolStripMenuItem.Size = new Size(224, 26);
             afficherLesMinesToolStripMenuItem.Text = "Afficher les mines";
             // 
             // quitterToolStripMenuItem
             // 
             quitterToolStripMenuItem.Name = "quitterToolStripMenuItem";
-            quitterToolStripMenuItem.Size = new Size(209, 26);
+            quitterToolStripMenuItem.Size = new Size(224, 26);
             quitterToolStripMenuItem.Text = "Quitter";
+            quitterToolStripMenuItem.Click += quitterToolStripMenuItem_Click;
             // 
             // minesRestantesLabel
             // 
@@ -296,19 +296,10 @@
             // 
             // textBoxExplicatif
             // 
-            textBoxExplicatif.Location = new Point(611, 166);
+            textBoxExplicatif.Location = new Point(625, 115);
             textBoxExplicatif.Name = "textBoxExplicatif";
             textBoxExplicatif.Size = new Size(149, 27);
             textBoxExplicatif.TabIndex = 205;
-            // 
-            // nombreDeMinesLabel
-            // 
-            nombreDeMinesLabel.AutoSize = true;
-            nombreDeMinesLabel.Location = new Point(635, 127);
-            nombreDeMinesLabel.Name = "nombreDeMinesLabel";
-            nombreDeMinesLabel.Size = new Size(125, 20);
-            nombreDeMinesLabel.TabIndex = 206;
-            nombreDeMinesLabel.Text = "nombre de mines";
             // 
             // pictureBox01
             // 
@@ -1404,7 +1395,6 @@
             Controls.Add(pictureBox03);
             Controls.Add(pictureBox02);
             Controls.Add(pictureBox01);
-            Controls.Add(nombreDeMinesLabel);
             Controls.Add(textBoxExplicatif);
             Controls.Add(minesRestantesLabel);
             Controls.Add(pictureBox00);
@@ -1580,7 +1570,6 @@
         private ToolStripMenuItem afficherLesMinesToolStripMenuItem;
         private ToolStripMenuItem quitterToolStripMenuItem;
         private TextBox textBoxExplicatif;
-        private Label nombreDeMinesLabel;
         private PictureBox pictureBox01;
         private PictureBox pictureBox02;
         private PictureBox pictureBox03;
