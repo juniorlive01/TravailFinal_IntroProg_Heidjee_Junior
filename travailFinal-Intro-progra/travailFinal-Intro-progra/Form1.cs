@@ -4,6 +4,7 @@ namespace travailFinal_Intro_progra
     {
 
         PictureBox[,] tableauCasesCahee = new PictureBox[10, 10];
+        Image imageCachee = Image.FromFile(@"ImagesDemineur\cachee.png");
         public Form1()
         {
             InitializeComponent();
@@ -12,6 +13,8 @@ namespace travailFinal_Intro_progra
         private void Form1_Load(object sender, EventArgs e)
         {
             PlacerPictureBoxDansTableau();
+
+            AfficherCasesCachee();
 
         }
 
@@ -130,5 +133,22 @@ namespace travailFinal_Intro_progra
 
 
         }
+
+        private void AfficherCasesCachee()
+        {
+            for (int ligne = 0; ligne < tableauCasesCahee.GetLength(0); ligne++)
+            {
+                for (int colonne = 0; colonne < tableauCasesCahee.GetLength(1); colonne++)
+                {
+                    tableauCasesCahee[ligne, colonne].Image = imageCachee;
+
+                }
+            }
+
+        }
+
+
+
+
     }
 }
