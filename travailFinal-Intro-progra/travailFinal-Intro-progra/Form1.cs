@@ -3,6 +3,14 @@ namespace travailFinal_Intro_progra
     public partial class Form1 : Form
     {
 
+
+        Image cacheeImage;
+        Image drapeauImage;
+        Image mineImage;
+        Image mineExploseeImage;
+        Image videImage;
+        Image[] imagesChiffres = new Image[9];
+
         PictureBox[,] tableauCasesCahee = new PictureBox[10, 10];
         public Form1()
         {
@@ -14,6 +22,15 @@ namespace travailFinal_Intro_progra
             PlacerPictureBoxDansTableau();
 
         }
+
+        enum EtatCase
+        {
+            Cachee,
+            Revelee,
+            Drapeau
+        }
+
+        
 
         private void PlacerPictureBoxDansTableau()
         {
@@ -130,5 +147,23 @@ namespace travailFinal_Intro_progra
 
 
         }
+
+        private void ChargerLesImages()
+        {
+            cacheeImage = Image.FromFile("cachee.png");
+            drapeauImage = Image.FromFile("drapeau.png");
+            mineImage = Image.FromFile("mine.png");
+            mineExploseeImage = Image.FromFile("mine_explosee.png");
+            videImage = Image.FromFile("vide.png");
+
+            // Le 0 est représenté par vide.png.
+            // On charge donc les images de 1 à 8.
+            for (int nombre = 1; nombre <= 8; nombre++)
+            {
+                imagesChiffres[nombre] =
+                    Image.FromFile($"{nombre}.png");
+            }
+        }
+
     }
 }
